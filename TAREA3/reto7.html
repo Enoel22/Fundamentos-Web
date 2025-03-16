@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Reto 7</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/reto7.css">
+    <link rel="icon" href="img/favicon.png">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/imagehover.css/css/imagehover.min.css">
+
+  </head>
+
+
+  <body>
+    <nav class="navbar navbar-expand-sm bg-light navbar-light px-5 py-2">
+      <div class="container-fluid nav nav-pills flex-column flex-sm-row">
+          <a class="navbar-brand" href="index.html">
+              <img src="img/Cenfo-Logo_01.png" alt="Logo"  class="logo">
+          </a>    
+          <a class="nav-link active" href="index.html">Volver</a>
+      </div>
+  </nav>
+
+  <section class="container bg-light">
+
+    <div class="row">
+
+        <div class="col-md-6 col-lg-6">
+
+            <div class="text-center pt-5">
+                <!-- carga de la imagen mapeada con ID del mapa -->
+                <img src="img/mapa.jpeg" usemap="#image-map" class="img-fluid shadow img-thumbnail" alt="mapamundi">
+            </div>
+        </div>
+
+
+        <div class="col-md-6 col-lg-6">
+            <p class="pt-5">
+                El mundo es un vasto y diverso planeta lleno de paisajes impresionantes, culturas fascinantes y una historia rica que ha moldeado la civilización. Desde las altas cumbres del Himalaya hasta las profundidades de los océanos, la Tierra alberga una increíble biodiversidad y ecosistemas únicos. Sus continentes, América, Europa, África, Asia y Oceanía, junto con la Antártida, ofrecen una variedad de climas, tradiciones y formas de vida. La humanidad ha construido grandes imperios, desarrollado tecnologías revolucionarias y explorado el espacio en su constante búsqueda de conocimiento y progreso. A pesar de los desafíos globales, la cooperación y la innovación continúan dando forma al futuro de nuestro planeta.
+            </p>
+        </div>
+    </div>
+    </section>
+  
+
+    <!-- <img src="mapa.jpeg" usemap="#image-map"> -->
+
+    <map name="image-map">
+        <area target="" alt="America" title="America" id="r0" coords="561,881,51" shape="circle" class="cursor">
+        <area target="" alt="Europa" title="Europa" id="r1" coords="1040,697,50" shape="circle" class="cursor">
+        <area target="" alt="Africa" title="Africa" id="r2" coords="1071,914,49" shape="circle" class="cursor">
+        <area target="" alt="Asia" title="Asia" id="r3" coords="1420,699,48" shape="circle" class="cursor">
+        <area target="" alt="Oceania" title="Oceania" id="r4" coords="1644,1098,51" shape="circle" class="cursor">
+    </map>
+
+
+    <footer class="bg-light py-5">
+        <h2 class="text-center">Derechos Reservados</h2>
+        <h2 class="text-center pt-2">Cenfotec 2024</h2>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="js/jquery.rwdImageMaps.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('img[usemap]').rwdImageMaps();
+        });
+    </script>
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script src="js/reto7.js"></script>
+    <!--Libreria de la nueva alerta-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+  </body>
+</html>

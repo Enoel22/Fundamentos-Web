@@ -1,0 +1,149 @@
+.logo {
+    width:200px;
+}
+
+/* RETO 1 */
+
+.banner1 {
+    background-image: url("../img/header-01.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.container-fluid1 {
+    padding-top: 90px;
+    padding-bottom: 200px;
+}
+
+/* RETO 2 */
+
+.seccion2 H2 {
+    padding-top: 25px;
+    font-size: 45px;
+    font-style: bold;
+}
+
+.seccion2 .icon {
+    background-color: #ffc107;
+    font-size: 100px;
+    color: white;
+}
+
+/* RETO 4 */
+
+.seccion3 H2 {
+    padding-top: 25px;
+    font-size: 20px;
+    font-style: bold;
+}
+
+.seccion3 .icon {
+    font-size: 100px;
+    color: #3ddffc;
+}
+
+/* RETO 6 */
+
+.banner2 {
+    background-image: url("../img/ header-02-01.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.container-fluid2 {
+    padding-top: 200px;
+    padding-bottom: 290px;
+    background-color: gray;
+    background-blend-mode: multiply;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7);
+}
+
+.container-fluid2 h3 {
+    font-size: 30px;
+    font-size: bold;
+}
+
+/* RETO 7 */
+
+.image-container {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+}
+  
+
+.hover-effect {
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+  
+
+.image-container:hover .hover-effect {
+    transform: scale(1.1);
+    filter: brightness(50%);
+}
+  
+.overlay-text {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+font-size: 1.5rem;
+text-align: center;
+opacity: 0;
+transition: opacity 0.3s ease;
+}
+
+.image-container:hover .overlay-text {
+opacity: 1;
+}
+
+
+/* RETO 8 */
+
+.banner3 {
+    background-image: url("../img/bannerFogo-min.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.container-fluid3 {
+    padding-top: 130px;
+    padding-bottom: 150px;
+}
+
+
+
+.card-img-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+
+
+.articulo1 {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-image: url('../img/PCBuilding.webp');
+    background-color: #928372;
+    background-blend-mode: multiply;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7);
+}
+
+/* RETO 9 */
+
+img {
+    height: 100px;
+}
+
+
+.resultado1 {
+width: 100%;
+height: 300px; /* Puedes cambiar esto según el tamaño deseado */
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
